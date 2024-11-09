@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class Calculator {
+public class Multiplication {
 	
 	@GetMapping("/multiply")
 	public int multiply() {
